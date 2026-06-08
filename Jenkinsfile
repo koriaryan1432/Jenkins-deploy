@@ -6,7 +6,7 @@ pipeline {
     
     environment {
         // REPLACE THIS with your actual Docker Hub username and repository name
-        DOCKER_IMAGE = 'yourdockerhubusername/my-web-app' 
+        DOCKER_IMAGE = 'koriaryan/my-web-app' 
         
         // This automatically tags the image with the Jenkins Build Number (e.g., v1, v2)
         DOCKER_TAG = "v${env.BUILD_ID}"
