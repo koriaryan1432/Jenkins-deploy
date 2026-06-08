@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  nova-website:
+    build: .
+    container_name: nova-website
+    ports:
+      - "8081:80"       # Access at http://localhost:8081
+    restart: unless-stopped

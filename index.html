@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NOVA — Creative Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="nav-logo">NOVA</a>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+      Start a Project
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-number">N</div>
+    <p class="hero-tag">✦ Creative Studio — Est. 2024</p>
+    <h1>We <em>craft</em><br/>digital<br/>futures.</h1>
+    <div class="hero-bottom">
+      <p class="hero-desc">
+        A creative studio building brands, products, and experiences that push boundaries and leave a lasting impression.
+      </p>
+      <div class="hero-scroll">
+        <div class="scroll-line"></div>
+        Scroll
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-bar">
+    <div class="stat reveal">
+      <div class="stat-num" data-target="180">0</div>
+      <div class="stat-label">Projects Delivered</div>
+    </div>
+    <div class="stat reveal reveal-delay-1">
+      <div class="stat-num" data-target="94">0</div>
+      <div class="stat-label">Clients Worldwide</div>
+    </div>
+    <div class="stat reveal reveal-delay-2">
+      <div class="stat-num" data-target="12">0</div>
+      <div class="stat-label">Years Experience</div>
+    </div>
+    <div class="stat reveal reveal-delay-3">
+      <div class="stat-num" data-target="38">0</div>
+      <div class="stat-label">Awards Won</div>
+    </div>
+  </div>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <div class="section-header reveal">
+      <h2 class="section-title">Selected Work</h2>
+      <span class="section-num">01 / 04</span>
+    </div>
+    <div class="work-grid">
+      <div class="work-card reveal">
+        <div class="work-num">001</div>
+        <div class="work-visual vis-1">
+          <div class="work-visual-inner vis-1"></div>
+          <div class="vis-label">Brand Identity</div>
+        </div>
+        <div class="work-tag">Branding · Strategy</div>
+        <div class="work-name">Luminary Financial — Global Brand Overhaul</div>
+        <div class="work-arrow">↗</div>
+      </div>
+      <div class="work-card reveal reveal-delay-1">
+        <div class="work-num">002</div>
+        <div class="work-visual vis-2">
+          <div class="work-visual-inner vis-2"></div>
+          <div class="vis-label">Web Experience</div>
+        </div>
+        <div class="work-tag">Web Design · Dev</div>
+        <div class="work-name">Ember Collective — Immersive Digital Platform</div>
+        <div class="work-arrow">↗</div>
+      </div>
+      <div class="work-card reveal reveal-delay-2">
+        <div class="work-num">003</div>
+        <div class="work-visual vis-3">
+          <div class="work-visual-inner vis-3"></div>
+          <div class="vis-label">Product Design</div>
+        </div>
+        <div class="work-tag">UI/UX · Research</div>
+        <div class="work-name">Verdant Health — App Design System</div>
+        <div class="work-arrow">↗</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section services-bg" id="services">
+    <div class="section-header reveal">
+      <h2 class="section-title">What We Do</h2>
+      <span class="section-num">02 / 04</span>
+    </div>
+    <div class="services-list">
+      <div class="service-row reveal">
+        <span class="service-row-num">01</span>
+        <div class="service-name">Brand Strategy</div>
+        <div class="service-desc">Building identities that resonate and endure across every touchpoint and market.</div>
+      </div>
+      <div class="service-row reveal">
+        <span class="service-row-num">02</span>
+        <div class="service-name">Digital Design</div>
+        <div class="service-desc">Web, app, and product interfaces crafted with precision and intention.</div>
+      </div>
+      <div class="service-row reveal">
+        <span class="service-row-num">03</span>
+        <div class="service-name">Motion &amp; Film</div>
+        <div class="service-desc">Moving stories that communicate, captivate, and convert audiences.</div>
+      </div>
+      <div class="service-row reveal">
+        <span class="service-row-num">04</span>
+        <div class="service-name">Development</div>
+        <div class="service-desc">Frontend engineering that brings design to life with performance at its core.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-header reveal">
+      <h2 class="section-title">About Studio</h2>
+      <span class="section-num">03 / 04</span>
+    </div>
+    <div class="about-grid">
+      <div class="about-visual about-vis-bg reveal">
+        <div class="about-visual-accent"></div>
+        <div class="about-visual-center">
+          <div class="about-visual-text">NOVA</div>
+          <div class="about-visual-sub">Creative Studio</div>
+        </div>
+      </div>
+      <div class="about-text reveal reveal-delay-1">
+        <h2>We're a studio<br/>obsessed with<br/><span>great work.</span></h2>
+        <p>Founded in 2024, NOVA is a multidisciplinary creative studio working at the intersection of strategy, design, and technology. We partner with forward-thinking brands to create work that matters.</p>
+        <p>From early-stage startups to Fortune 500 companies, we bring the same level of craft, curiosity, and commitment to every project we take on.</p>
+        <div class="about-tags">
+          <span class="about-tag">Brand Identity</span>
+          <span class="about-tag">UI / UX</span>
+          <span class="about-tag">Motion</span>
+          <span class="about-tag">Strategy</span>
+          <span class="about-tag">Webflow</span>
+          <span class="about-tag">React</span>
+          <span class="about-tag">Next.js</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL -->
+  <section class="testimonial-section reveal">
+    <blockquote>"NOVA didn't just design our brand — they defined our future."</blockquote>
+    <p class="testimonial-author">— Sarah Chen, CEO of Luminary Financial</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-header reveal">
+      <h2 class="section-title">Get In Touch</h2>
+      <span class="section-num">04 / 04</span>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-left reveal">
+        <h2>Let's build<br/>something<br/><em>great.</em></h2>
+        <p>Have a project in mind? We'd love to hear about it. Tell us what you're working on and let's figure out how we can help.</p>
+        <div class="contact-info">
+          <div class="contact-info-item">✉ hello@novastudio.io</div>
+          <div class="contact-info-item">📍 Chandigarh · Mumbai · Remote</div>
+        </div>
+      </div>
+      <div class="contact-form reveal reveal-delay-1">
+        <div class="form-field">
+          <label>Your Name</label>
+          <input type="text" placeholder="John Doe" />
+        </div>
+        <div class="form-field">
+          <label>Email Address</label>
+          <input type="email" placeholder="john@company.com" />
+        </div>
+        <div class="form-field">
+          <label>Service Needed</label>
+          <select>
+            <option value="">Select a service...</option>
+            <option>Brand Strategy</option>
+            <option>Digital Design</option>
+            <option>Motion &amp; Film</option>
+            <option>Development</option>
+            <option>All of the above</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label>Tell Us About Your Project</label>
+          <textarea placeholder="Describe your project, goals, and timeline..."></textarea>
+        </div>
+        <button class="submit-btn" id="submitBtn">Send Message →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">NOVA</div>
+    <div class="footer-links">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-copy">© 2024 Nova Studio. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
